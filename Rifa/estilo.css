@@ -1,0 +1,217 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #FFF;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: underline;
+	
+}
+
+#area-cabecalho a:hover {
+	color: blue;
+	background: white;
+	text-decoration: none;
+	
+}
+#area-cabecalho h1, h2 {
+	color: white;
+}
+#area-cabecalho h2 {
+	padding-bottom: 25px;
+}
+#area-cabecalho{
+	
+	background-color:#294c71;
+	padding: 15px;
+	text-align: center;
+	height: 150px;
+}
+
+#area-logo, #area-menu {
+	padding: 10px;
+}
+
+#area-menu a {
+	color: white;
+	padding: 10px;
+	list-style: none;
+	text-decoration: none;
+	
+}
+.date {
+	font-size: 0.8em;
+	padding: 5px;
+	float:right;
+}
+.caixa-conteudo h3 {
+	padding: 10px;
+	background:#b10333;
+	color: #fff;
+
+}
+.caixa-conteudo img {
+	width:100%;
+	height:350px;
+	/*object-fit:  contain;*/
+}
+.caixa-conteudo a {
+	text-decoration: none;
+
+}
+/*.caixa-conteudo img:hover {
+	border: solid 2px gray;
+	-webkit-transform: scale(1);
+	width:100%;
+	height:350px;
+	object-fit:  contain;
+}*/
+
+/*.caixa-conteudo img:hover {
+	width:400px;
+	height:400px;
+	opacity: 0.5;*/
+	/*object-fit:  contain;*/
+}
+
+
+.caixa-conteudo a {
+	color: #b10333;
+	text-decoration:none;
+}
+
+body.home #area-menu a#home,
+body.rifa #area-menu a#rifa,
+body.contato #area-menu a#contato,
+body.ganhadores #area-menu a#ganhadores {
+	color:#fff;
+	text-decoration:underline;
+
+}
+body.home #area-menu a:hover#home,
+body.rifa #area-menu a:hover#rifa,
+body.contato #area-menu a:hover#contato,
+body.ganhadores #area-menu a:hover#ganhadores {
+	color:blue;
+	
+}
+.caixa h2 {
+	font-size: 1.3em;
+	background: #294c71;
+	color: #fff;
+	padding: 5px;
+}
+.caixa {	
+	margin:10px; 
+	width: 280px;
+	float: left;
+	background: #fff;
+	margin-bottom: 30px; 
+
+}
+
+#container {	
+	margin:0 auto; 
+	width: 900px;
+	background-color: #f5f5f5;
+
+}
+
+#conteudo {	
+	margin-top: 20px;
+
+}
+
+#rifa-poste {
+	float: left;
+	width: 900px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+#primeiro {
+	float: left;
+	width: 280px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background: #294c71;
+	padding-left: 10px;
+}
+#duas-coluna #primeiro {
+	width: 580px;
+	background-color: blue;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+#uma-coluna #primeiro {
+	width: 900px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+#segundo {
+	float: left;
+	width: 280px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	
+
+}
+#terceiro {
+	float: left;
+	width: 280px;
+
+}
+#containe-rodape {
+	background: #294c71;
+	padding: 20px;
+}
+
+#texto p {
+	width: 1140px;
+	text-align:justify;
+	font:16px cursive; 
+}
+
+.fixo {
+
+	bottom: 0px;
+	right: 10px;
+
+}
+.fixo h3 {
+
+	margin-bottom: 40px;
+	margin-top: 30px;
+
+}
+.fixo form {
+
+	margin-bottom: 30px;
+
+}
+
+.nao  {
+	text-decoration:none;
+}
+.nao a:hover  {
+	text-decoration:none;
+}
+
+#rodape {
+	width: 720px;
+	margin: 0 auto;
+	color:#fff;
+	text-align: center;
+}
+
+
+
+
